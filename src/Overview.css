@@ -7,9 +7,8 @@ div.overview {
 div.letters {
   flex-direction: column;
   margin-right: 20px;
-  height: 700px;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   display: flex;
 }
 
@@ -17,15 +16,13 @@ div.information {
   display: flex;
   flex-direction: column;
   margin-right: 20px;
-  height: 700px;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 div.images {
   display: flex;
   flex-direction: column;
-  height: 700px;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
 }
