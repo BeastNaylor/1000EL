@@ -1,0 +1,19 @@
+div.container {
+  border: solid black 2px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+div.container p.heading {
+  margin: 0 0 10px 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+div.container div.content p {
+  margin: 0;
+  text-align: justify;
+  font-size: 20px;
+  line-height: 20px;
+}

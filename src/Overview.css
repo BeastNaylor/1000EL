@@ -1,0 +1,31 @@
+div.overview {
+  margin: auto;
+  width: 80%;
+  display: flex;
+}
+
+div.letters {
+  flex-direction: column;
+  margin-right: 20px;
+  height: 700px;
+  flex-direction: column;
+  justify-content: space-around;
+  display: flex;
+}
+
+div.information {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  height: 700px;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+div.images {
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  flex-direction: column;
+  justify-content: space-around;
+}

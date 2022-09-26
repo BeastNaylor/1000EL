@@ -1,0 +1,22 @@
+div.letter-container {
+  position: relative;
+  border: solid black 2px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+div.letter-container label.number {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+div.letter-container label.letter {
+  display: block;
+  font-size: 70px;
+  padding: 5px;
+  text-align: center;
+  height: 80px;
+  line-height: 70px;
+  width: 80px;
+}
