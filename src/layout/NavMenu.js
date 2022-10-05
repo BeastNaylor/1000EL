@@ -5,16 +5,16 @@ import "./NavMenu.css";
 const NavMenu = () => {
   return (
     <div class="tabs-container">
-      <NavLink className="tab" to="oracle">
+      <NavLink className="tab" end to="/">
         Oracle
       </NavLink>
-      <NavLink className="tab" to="icons">
+      <NavLink className="tab" to="/icons">
         Semiotic Standard
       </NavLink>
-      <NavLink className="tab" to="cdih">
+      <NavLink className="tab" to="/cdih">
         C-D-I-H (Extended)
       </NavLink>
-      <NavLink className="tab" to="decoder">
+      <NavLink className="tab" to="/decoder">
         Personal Key Decoding
       </NavLink>
     </div>
