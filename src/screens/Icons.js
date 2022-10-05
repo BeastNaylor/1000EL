@@ -1,5 +1,5 @@
 const Icons = () => {
-  return <div>HELLO</div>;
+  return <h2>ICONS</h2>;
 };
 
 export default Icons;

@@ -1,22 +1,22 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./NavMenu.css";
 
 const NavMenu = () => {
   return (
     <div class="tabs-container">
-      <div class="tab">
-        <Link to="oracle">Oracle</Link>
-      </div>
-      <div class="tab">
-        <Link to="icons">Semiotic Standard</Link>
-      </div>
-      <div class="tab">
-        <Link to="cdih">C-D-I-H (Extended)</Link>
-      </div>
-      <div class="tab">
-        <Link to="decoder">Personal Key Decoding</Link>
-      </div>
+      <NavLink className="tab" to="oracle">
+        Oracle
+      </NavLink>
+      <NavLink className="tab" to="icons">
+        Semiotic Standard
+      </NavLink>
+      <NavLink className="tab" to="cdih">
+        C-D-I-H (Extended)
+      </NavLink>
+      <NavLink className="tab" to="decoder">
+        Personal Key Decoding
+      </NavLink>
     </div>
   );
 };

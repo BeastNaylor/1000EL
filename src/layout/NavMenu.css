@@ -2,8 +2,19 @@ div.tabs-container {
   display: flex;
   flex-wrap: nowrap;
   text-align: center;
+  margin-bottom: 10px;
 }
 
-div.tab {
+a.tab {
+  display: block;
   flex: auto;
+  padding: 2px 5px;
+  border-top: 2px solid grey;
+  border-right: 1px solid grey;
+  border-left: 1px solid grey;
+  border-bottom: 2px solid grey;
+}
+
+a.tab.active {
+  border-bottom: 0px;
 }
