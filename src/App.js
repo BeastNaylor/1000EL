@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Oracle from "./screens/Oracle";
+import Icons from "./screens/Icons";
+import Layout from "./layout/Layout";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+const baseUrl = document.getElementsByTagName("base")[0].getAttribute("href");
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter basename={baseUrl}>
+      <Layout>
+        <Routes>
+          <Route path="/oracle" element={<Oracle />} />
+          <Route path="/icons" element={<Icons />} />
+          <Route path="/cdih" element={<h2>CDIH</h2>} />
+          <Route path="/decoder" element={<h2>DECODE</h2>} />
+        </Routes>
+      </Layout>
+    </BrowserRouter>
   );
 }
 

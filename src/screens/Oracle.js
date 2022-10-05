@@ -1,8 +1,8 @@
-import Letter from "./Letter";
-import Information from "./Information";
-import Image from "./Image";
+import Letter from "../components/Letter";
+import Information from "../components/Information";
+import Image from "../components/Image";
 import Xarrow from "react-xarrows";
-import "./Overview.css";
+import "./Oracle.css";
 
 const lineStyles = {
   path: "grid",

@@ -1,0 +1,9 @@
+div.tabs-container {
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: center;
+}
+
+div.tab {
+  flex: auto;
+}
