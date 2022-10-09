@@ -9,8 +9,8 @@ const TitleBar = () => {
     <div id="titleBar">
       <Navbar color="light" light>
         <NavbarBrand>
-          <div class="title">SOLO</div>
-          <div class="sub">Solo Operator Lift-Off</div>
+          <div className="title">SOLO</div>
+          <div className="sub">Solo Operator Lift-Off</div>
         </NavbarBrand>
         <NavbarText>
           <img src={imageUrl} height="40px" />

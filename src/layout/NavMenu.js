@@ -4,7 +4,7 @@ import "./NavMenu.css";
 
 const NavMenu = () => {
   return (
-    <div class="tabs-container">
+    <div className="tabs-container">
       <NavLink className="tab" end to="/">
         Oracle
       </NavLink>
