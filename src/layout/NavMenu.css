@@ -13,8 +13,17 @@ a.tab {
   border-right: 1px solid grey;
   border-left: 1px solid grey;
   border-bottom: 2px solid grey;
+  text-decoration: none;
+  background-color: lightgrey;
+  color: black;
+  flex-basis: min-content;
+}
+
+a.tab:hover {
+  color: inherit;
 }
 
 a.tab.active {
   border-bottom: 0px;
+  background-color: white;
 }

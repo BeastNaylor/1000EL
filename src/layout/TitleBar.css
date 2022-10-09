@@ -1,0 +1,10 @@
+#titleBar div.title {
+  color: black;
+  font-size: 18px;
+  line-height: 1;
+}
+
+#titleBar div.sub {
+  color: black;
+  font-size: 14px;
+}
