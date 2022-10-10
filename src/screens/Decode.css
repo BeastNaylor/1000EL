@@ -1,0 +1,7 @@
+#decode div.decodeRow {
+  display: flex;
+}
+
+#decode div.decodeRow div {
+  flex: auto;
+}

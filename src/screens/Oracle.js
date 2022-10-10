@@ -14,7 +14,7 @@ const lineStyles = {
 
 const Overview = () => {
   return (
-    <div className="overview">
+    <div id="oracle">
       <div className="letters">
         <Letter number="1" letters={["O"]} id="letter-1" />
         <Letter number="2" letters={["R"]} id="letter-2" />
