@@ -1,4 +1,3 @@
-import "./App.css";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Oracle from "./screens/Oracle";
 import Icons from "./screens/Icons";

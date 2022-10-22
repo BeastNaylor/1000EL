@@ -1,10 +1,12 @@
 #titleBar div.title {
   color: black;
   font-size: 18px;
+  font-family: "GillandBold";
   line-height: 1;
 }
 
 #titleBar div.sub {
   color: black;
   font-size: 14px;
+  font-family: "GillandBold";
 }

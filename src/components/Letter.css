@@ -7,16 +7,18 @@ div.letter-container {
 
 div.letter-container label.number {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 2px;
+  left: 4px;
+  font-family: "GillandBold";
 }
 
 div.letter-container label.letter {
   display: block;
   font-size: 50px;
-  padding: 5px;
+  padding: 10px;
   text-align: center;
   height: 60px;
   line-height: 50px;
   width: 60px;
+  font-family: "GillandBold";
 }
