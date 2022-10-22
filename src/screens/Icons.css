@@ -1,3 +1,12 @@
 #semiotic {
   text-align: center;
 }
+
+#semiotic div#image {
+  margin-top: 20px;
+}
+
+#semiotic div#image img {
+  height: 300px;
+  width: 300px;
+}

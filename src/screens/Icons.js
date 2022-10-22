@@ -15,7 +15,7 @@ const Icons = () => {
     <Container id="semiotic">
       <input type="button" value="Generate Image" onClick={generateImage} />
       {state.loaded && (
-        <div>
+        <div id="image">
           <img src={`${process.env.PUBLIC_URL}/images/semiotic/${state.image.file}.svg`} alt={state.image.name} />
         </div>
       )}
