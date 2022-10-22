@@ -6,16 +6,16 @@ const NavMenu = () => {
   return (
     <div className="tabs-container">
       <NavLink className="tab" end to="/">
-        Oracle
+        ORACLE
       </NavLink>
       <NavLink className="tab" to="/icons">
-        Semiotic Standard
+        SEMIOTIC STANDARD
       </NavLink>
       <NavLink className="tab" to="/cdih">
-        C-D-I-H (Extended)
+        C-D-I-H (EXTENDED)
       </NavLink>
       <NavLink className="tab" to="/decoder">
-        Personal Key Decoding
+        PERSONAL KEY DECODING
       </NavLink>
     </div>
   );
