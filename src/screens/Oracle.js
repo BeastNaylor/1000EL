@@ -47,11 +47,11 @@ const Overview = () => {
         </Information>
       </div>
       <div className="images">
-        <Image id="image-1" logo="FE" />
-        <Image id="image-2" logo="Mario" />
-        <Image id="image-3" logo="Metroid" />
-        <Image id="image-4" logo="Xenoblade" />
-        <Image id="image-5" logo="Pokemon" />
+        <Image id="image-1" logo="observe" />
+        <Image id="image-2" logo="resolve" />
+        <Image id="image-3" logo="act" />
+        <Image id="image-4" logo="conclude" />
+        <Image id="image-5" logo="leave-evidence" />
       </div>
       <Xarrow start="letter-1" end="info-1" {...lineStyles} />
       <Xarrow start="letter-2" end="info-2" {...lineStyles} />

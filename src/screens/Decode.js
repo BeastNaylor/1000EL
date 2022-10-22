@@ -35,6 +35,7 @@ const Decode = () => {
     });
     setState(newState);
   };
+
   const handleChange = (event) => {
     state[event.target.name].input = event.target.value;
   };
