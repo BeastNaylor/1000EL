@@ -1,0 +1,93 @@
+{
+  "combat": [10, 15, 20, 25, 30, 35, 40, 50, 60, 70],
+  "damage": [1, 2, "1d5", "1d10", "2d10", "3d10", "4d10", "5d10", "6d10", "1d100"],
+  "instinct": [10, 15, 20, 25, 30, 35, 40, 50, 60, 70],
+  "hits": ["1(2)", "1(5)", "1(10)", "2(5)", "3(5)", "2(10)", "2(15)", "3(15)", "3(20)", "5(20)"],
+  "habitat": [
+    {
+      "name": "Sub-Zero",
+      "initalOptions": [
+        { "title": "carrion", "effect": "Critical:" },
+        { "title": "scarred", "effect": "Critical:" },
+        { "title": "freezing", "effect": "Body Save or " },
+        { "title": "mimicking", "effect": "Sanity Save or " },
+        { "title": "shocking", "effect": "Fear Save or" }
+      ],
+      "secondOptions": [
+        { "title": "claws", "effect": "surprised" },
+        { "title": "jaws", "effect": "+1 Stress" },
+        { "title": "antlers", "effect": "1d10 DMG gore" },
+        { "title": "skull", "effect": "1d5 Stress" },
+        { "title": "pelt", "effect": "[-] next action" }
+      ]
+    },
+    {
+      "name": "Temperate",
+      "initalOptions": [
+        { "title": "ferrous", "effect": "Critical:" },
+        { "title": "mangled", "effect": "Critical:" },
+        { "title": "sticky", "effect": "Body Save or " },
+        { "title": "demonic", "effect": "Sanity Save or " },
+        { "title": "rotten", "effect": "Fear Save or" }
+      ],
+      "secondOptions": [
+        { "title": "beak", "effect": "surprised" },
+        { "title": "tongue", "effect": "+1 Stress" },
+        { "title": "talons", "effect": "1d5 Stress" },
+        { "title": "lump", "effect": "[-] Speed Checks" },
+        { "title": "muscles", "effect": "1d10 DMG blunt" }
+      ]
+    },
+    {
+      "name": "Tropical",
+      "initalOptions": [
+        { "title": "slimy", "effect": "Critical:" },
+        { "title": "wiry", "effect": "Critical:" },
+        { "title": "grasping", "effect": "Body Save or " },
+        { "title": "venemous", "effect": "Sanity Save or " },
+        { "title": "infesting", "effect": "Fear Save or" }
+      ],
+      "secondOptions": [
+        { "title": "antennae", "effect": "surprised" },
+        { "title": "fangs", "effect": "+1 Stress" },
+        { "title": "proboscis", "effect": "Panic Check" },
+        { "title": "suckers", "effect": "entangled" },
+        { "title": "sac", "effect": "+1 min. Stress" }
+      ]
+    },
+    {
+      "name": "Arid",
+      "initalOptions": [
+        { "title": "bulbous", "effect": "Critical:" },
+        { "title": "skeletal", "effect": "Critical:" },
+        { "title": "binding", "effect": "Body Save or " },
+        { "title": "mirage", "effect": "Sanity Save or " },
+        { "title": "venemous", "effect": "Fear Save or" }
+      ],
+      "secondOptions": [
+        { "title": "scales", "effect": "surprised" },
+        { "title": "tail", "effect": "+1 Stress" },
+        { "title": "flamer", "effect": "1d10 DMG fire" },
+        { "title": "rattle", "effect": "[-] Int. Checks" },
+        { "title": "stinger", "effect": "Panic Check" }
+      ]
+    },
+    {
+      "name": "Aquatic",
+      "initalOptions": [
+        { "title": "serrated", "effect": "Critical:" },
+        { "title": "armoured", "effect": "Critical:" },
+        { "title": "stinging", "effect": "Body Save or " },
+        { "title": "hypnotic", "effect": "Sanity Save or " },
+        { "title": "glowing", "effect": "Fear Save or" }
+      ],
+      "secondOptions": [
+        { "title": "fins", "effect": "surprised" },
+        { "title": "spikes", "effect": "+1 Stress" },
+        { "title": "pincers", "effect": "1 Wound" },
+        { "title": "tentacles", "effect": "entangled" },
+        { "title": "shell", "effect": "[-] Str. Checks" }
+      ]
+    }
+  ]
+}
