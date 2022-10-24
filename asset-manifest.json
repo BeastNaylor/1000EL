@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/1000EL/static/css/main.171046b9.css",
-    "main.js": "/1000EL/static/js/main.55fc7a30.js",
+    "main.js": "/1000EL/static/js/main.c0c67ff2.js",
     "static/media/Gilland-Bold.otf": "/1000EL/static/media/Gilland-Bold.05716aab6a3df05374b7.otf",
     "static/media/Gilland-Regular.otf": "/1000EL/static/media/Gilland-Regular.a2872ca3305d63a7d613.otf",
     "static/media/33 organic matter.svg": "/1000EL/static/media/33 organic matter.2980ef8df6cad7a605af89c49120fea3.svg",
@@ -57,10 +57,10 @@
     "static/media/46 video surveillance.svg": "/1000EL/static/media/46 video surveillance.63f50b5b51bc8ba4458758a323a4caf2.svg",
     "index.html": "/1000EL/index.html",
     "main.171046b9.css.map": "/1000EL/static/css/main.171046b9.css.map",
-    "main.55fc7a30.js.map": "/1000EL/static/js/main.55fc7a30.js.map"
+    "main.c0c67ff2.js.map": "/1000EL/static/js/main.c0c67ff2.js.map"
   },
   "entrypoints": [
     "static/css/main.171046b9.css",
-    "static/js/main.55fc7a30.js"
+    "static/js/main.c0c67ff2.js"
   ]
 }
