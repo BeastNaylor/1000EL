@@ -53,7 +53,7 @@ const Threats = () => {
             </div>
             <div className="threatRow">
               <div>Combat:</div>
-              <div>{`${state.threat.combat} ${state.threat.power} ${state.threat.damage}`}</div>
+              <div>{`${state.threat.combat} ${state.threat.power} [${state.threat.damage}]`}</div>
             </div>
             <div className="threatRow">
               <div>Instinct:</div>

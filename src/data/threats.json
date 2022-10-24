@@ -1,6 +1,6 @@
 {
   "combat": [10, 15, 20, 25, 30, 35, 40, 50, 60, 70],
-  "damage": [1, 2, "1d5", "1d10", "2d10", "3d10", "4d10", "5d10", "6d10", "1d100"],
+  "damage": [1, 2, "[1d5]", "[1d10]", "[2d10]", "[3d10]", "[4d10]", "[5d10]", "[6d10]", "[1d100]"],
   "instinct": [10, 15, 20, 25, 30, 35, 40, 50, 60, 70],
   "hits": ["1(2)", "1(5)", "1(10)", "2(5)", "3(5)", "2(10)", "2(15)", "3(15)", "3(20)", "5(20)"],
   "habitat": [
@@ -16,8 +16,8 @@
       "secondOptions": [
         { "title": "claws", "effect": "+1 Stress" },
         { "title": "jaws", "effect": "+1 Stress" },
-        { "title": "antlers", "effect": "1d10 DMG gore" },
-        { "title": "skull", "effect": "1d5 Stress" },
+        { "title": "antlers", "effect": "[1d10] DMG gore" },
+        { "title": "skull", "effect": "[1d5] Stress" },
         { "title": "pelt", "effect": "[-] next action" }
       ]
     },
@@ -33,9 +33,9 @@
       "secondOptions": [
         { "title": "beak", "effect": "+1 Stress" },
         { "title": "tongue", "effect": "+1 Stress" },
-        { "title": "talons", "effect": "1d5 Stress" },
+        { "title": "talons", "effect": "[1d5] Stress" },
         { "title": "lump", "effect": "[-] Speed Checks" },
-        { "title": "muscles", "effect": "1d10 DMG blunt" }
+        { "title": "muscles", "effect": "[1d10] DMG blunt" }
       ]
     },
     {
@@ -67,7 +67,7 @@
       "secondOptions": [
         { "title": "scales", "effect": "+1 Stress" },
         { "title": "tail", "effect": "+1 Stress" },
-        { "title": "flamer", "effect": "1d10 DMG fire" },
+        { "title": "flamer", "effect": "[1d10] DMG fire" },
         { "title": "rattle", "effect": "[-] Int. Checks" },
         { "title": "stinger", "effect": "Panic Check" }
       ]
