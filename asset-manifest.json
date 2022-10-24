@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/1000EL/static/css/main.183eabf8.css",
-    "main.js": "/1000EL/static/js/main.6652d959.js",
+    "main.js": "/1000EL/static/js/main.191817c2.js",
     "static/media/Gilland-Bold.otf": "/1000EL/static/media/Gilland-Bold.05716aab6a3df05374b7.otf",
     "static/media/SV Basic Manual Book.ttf": "/1000EL/static/media/SV Basic Manual Book.287d42c55d446e3705bc.ttf",
     "index.html": "/1000EL/index.html",
     "main.183eabf8.css.map": "/1000EL/static/css/main.183eabf8.css.map",
-    "main.6652d959.js.map": "/1000EL/static/js/main.6652d959.js.map"
+    "main.191817c2.js.map": "/1000EL/static/js/main.191817c2.js.map"
   },
   "entrypoints": [
     "static/css/main.183eabf8.css",
-    "static/js/main.6652d959.js"
+    "static/js/main.191817c2.js"
   ]
 }
