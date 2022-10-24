@@ -3,7 +3,7 @@ import { Button, Col, Container, Form, FormGroup, Input, Label } from "reactstra
 import "./Decode.css";
 
 const Decode = () => {
-  const key = "MOUTHLOSTTOTHETEETH";
+  const key = "MOUTHLOSTTOTHETEETH.";
 
   var [state, setState] = useState([]);
 
