@@ -1,3 +1,20 @@
 #threats {
   text-align: center;
 }
+
+#button {
+  margin-bottom: 20px;
+}
+
+#threat {
+  margin-bottom: 20px;
+}
+
+.threatRow {
+  display: flex;
+}
+
+.threatRow div {
+  flex: 1;
+  border: grey 1px solid;
+}

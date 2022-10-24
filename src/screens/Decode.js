@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Button, Container } from "reactstrap";
 import "./Decode.css";
 
 const Decode = () => {
@@ -41,22 +42,29 @@ const Decode = () => {
   };
 
   return (
-    <div id="decode">
-      <p>This is the blurb to tell people what they are supposed to do below</p>
-      {state.map((letterInfo) => {
-        return (
-          <div key={letterInfo.index} className="decodeRow">
-            <div className="decodeLetter">{letterInfo.letter}</div>
-            <div className="decodeAscii">{letterInfo.code.toString("2").padStart(8, "0")}</div>
-            <div className="decodeInput">
-              <input defaultValue={letterInfo.input} onChange={handleChange} name={letterInfo.index} />
+    <Container id="decode">
+      <p>
+        If you have been supplied a personal key, input each byte (8 digit chunk) in the forms provided and press DECODE
+        to decipher your message.
+      </p>
+      <div id="inputs">
+        {state.map((letterInfo) => {
+          return (
+            <div key={letterInfo.index} className="decodeRow">
+              <div className="decodeLetter">{letterInfo.letter}</div>
+              <div className="decodeAscii">{letterInfo.code.toString("2").padStart(8, "0")}</div>
+              <div className="decodeInput">
+                <input defaultValue={letterInfo.input} onChange={handleChange} name={letterInfo.index} />
+              </div>
+              <div className="decodeResult">{letterInfo.result}</div>
             </div>
-            <div className="decodeResult">{letterInfo.result}</div>
-          </div>
-        );
-      })}
-      <input type="button" value="Decode" onClick={decode} />
-    </div>
+          );
+        })}
+      </div>
+      <Button id="decodeButton" type="button" onClick={decode} color="secondary">
+        Decode
+      </Button>
+    </Container>
   );
 };
 

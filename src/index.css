@@ -1,13 +1,17 @@
 @font-face {
-  font-family: "GillandBold";
+  font-family: "Gilland-Bold";
   src: url("../public/fonts/Gilland-Bold.otf") format("opentype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "BasicManual";
+  font-family: "SVBasicManual";
   src: url("../public/fonts/SV\ Basic\ Manual\ Book.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
+}
+
+div#root {
+  font-family: "SVBasicManual";
 }

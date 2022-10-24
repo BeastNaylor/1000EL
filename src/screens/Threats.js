@@ -1,7 +1,7 @@
 import "./Threats.css";
 import data from "../data/threats.json";
 import { useState } from "react";
-import { Container } from "reactstrap";
+import { Button, Container } from "reactstrap";
 import { parseDice, flipCoin, randomNumber } from "../util/utils";
 
 const Threats = () => {
@@ -14,7 +14,7 @@ const Threats = () => {
     let threatDie = "1d10";
 
     if (multipleThreats) {
-      threatCount = "1d5";
+      threatCount = parseDice("1d5");
       threatDie = "1d5";
     }
 
@@ -36,18 +36,43 @@ const Threats = () => {
 
   return (
     <Container id="threats">
-      <input type="button" value="Generate Threat" onClick={generateThreat} />
+      <p>Classification of Dangerous and Intimidating Happenstances - extended for alien forms</p>
+      <Button id="button" type="button" onClick={generateThreat} color="secondary">
+        Generate alien form
+      </Button>
       {state.loaded && (
-        <div id="threat">
-          <div>Number of Threats: {state.threat.number}</div>
-          <div>Combat: {state.threat.combat}</div>
-          <div>Damage: {state.threat.damage}</div>
-          <div>Instinct: {state.threat.instinct}</div>
-          <div>Hits: {state.threat.hits}</div>
-          <div>Habitat: {state.threat.habitat}</div>
-          <div>Characteristic: {state.threat.power}</div>
-          <div>Consequence: {state.threat.effect}</div>
-        </div>
+        <>
+          <div id="threat">
+            <div className="threatRow">
+              <div>Habitat:</div>
+              <div>{state.threat.habitat}</div>
+            </div>
+            <div className="threatRow">
+              <div># of Threats:</div>
+              <div>{state.threat.number}</div>
+            </div>
+            <div className="threatRow">
+              <div>Combat:</div>
+              <div>{`${state.threat.combat} ${state.threat.power} ${state.threat.damage}`}</div>
+            </div>
+            <div className="threatRow">
+              <div>Instinct:</div>
+              <div>{state.threat.instinct}</div>
+            </div>
+            <div className="threatRow">
+              <div>Hits:</div>
+              <div>{state.threat.hits}</div>
+            </div>
+            <div className="threatRow">
+              <div>Consequence:</div>
+              <div>{state.threat.effect}</div>
+            </div>
+          </div>
+          <p>
+            Consequences occur when an alien form makes a successful attack. 'Critical' indicates an effect that only
+            occurs on a successful critical attack (or the target's critical failure, depending on circumstances).
+          </p>
+        </>
       )}
     </Container>
   );

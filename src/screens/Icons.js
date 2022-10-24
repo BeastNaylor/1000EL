@@ -1,7 +1,7 @@
 import "./Icons.css";
 import data from "../data/semiotic.json";
 import { useState } from "react";
-import { Container } from "reactstrap";
+import { Button, Container } from "reactstrap";
 import { randomNumber } from "../util/utils";
 
 const Icons = () => {
@@ -14,7 +14,9 @@ const Icons = () => {
 
   return (
     <Container id="semiotic">
-      <input type="button" value="Generate Image" onClick={generateImage} />
+      <Button type="button" onClick={generateImage} color="secondary">
+        Scan
+      </Button>
       {state.loaded && (
         <div id="image">
           <img src={`${process.env.PUBLIC_URL}/images/semiotic/${state.image.file}.svg`} alt={state.image.name} />

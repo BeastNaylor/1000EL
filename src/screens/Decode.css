@@ -1,7 +1,15 @@
+#decode {
+  text-align: center;
+}
+
+#inputs {
+  margin-bottom: 20px;
+}
+
 #decode div.decodeRow {
   display: flex;
 }
 
 #decode div.decodeRow div {
-  flex: auto;
+  flex: 1;
 }

@@ -9,7 +9,7 @@ div.letter-container label.number {
   position: absolute;
   top: 2px;
   left: 4px;
-  font-family: "GillandBold";
+  font-family: "Gilland-Bold";
 }
 
 div.letter-container label.letter {
@@ -20,5 +20,5 @@ div.letter-container label.letter {
   height: 60px;
   line-height: 50px;
   width: 60px;
-  font-family: "GillandBold";
+  font-family: "Gilland-Bold";
 }

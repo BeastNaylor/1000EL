@@ -17,7 +17,6 @@ a.tab {
   background-color: lightgrey;
   color: black;
   flex-basis: min-content;
-  font-family: "BasicManual";
 }
 
 a.tab:hover {
