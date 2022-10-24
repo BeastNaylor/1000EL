@@ -14,7 +14,7 @@
         { "title": "shocking", "effect": "Fear Save or" }
       ],
       "secondOptions": [
-        { "title": "claws", "effect": "surprised" },
+        { "title": "claws", "effect": "+1 Stress" },
         { "title": "jaws", "effect": "+1 Stress" },
         { "title": "antlers", "effect": "1d10 DMG gore" },
         { "title": "skull", "effect": "1d5 Stress" },
@@ -31,7 +31,7 @@
         { "title": "rotten", "effect": "Fear Save or" }
       ],
       "secondOptions": [
-        { "title": "beak", "effect": "surprised" },
+        { "title": "beak", "effect": "+1 Stress" },
         { "title": "tongue", "effect": "+1 Stress" },
         { "title": "talons", "effect": "1d5 Stress" },
         { "title": "lump", "effect": "[-] Speed Checks" },
@@ -48,7 +48,7 @@
         { "title": "infesting", "effect": "Fear Save or" }
       ],
       "secondOptions": [
-        { "title": "antennae", "effect": "surprised" },
+        { "title": "antennae", "effect": "+1 Stress" },
         { "title": "fangs", "effect": "+1 Stress" },
         { "title": "proboscis", "effect": "Panic Check" },
         { "title": "suckers", "effect": "entangled" },
@@ -65,7 +65,7 @@
         { "title": "venemous", "effect": "Fear Save or" }
       ],
       "secondOptions": [
-        { "title": "scales", "effect": "surprised" },
+        { "title": "scales", "effect": "+1 Stress" },
         { "title": "tail", "effect": "+1 Stress" },
         { "title": "flamer", "effect": "1d10 DMG fire" },
         { "title": "rattle", "effect": "[-] Int. Checks" },
@@ -82,7 +82,7 @@
         { "title": "glowing", "effect": "Fear Save or" }
       ],
       "secondOptions": [
-        { "title": "fins", "effect": "surprised" },
+        { "title": "fins", "effect": "+1 Stress" },
         { "title": "spikes", "effect": "+1 Stress" },
         { "title": "pincers", "effect": "1 Wound" },
         { "title": "tentacles", "effect": "entangled" },

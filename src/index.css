@@ -6,6 +6,12 @@
 }
 
 @font-face {
+  font-family: "Gilland-Regular";
+  src: url("../public/fonts/Gilland-Regular.otf") format("opentype");
+  font-style: normal;
+}
+
+@font-face {
   font-family: "SVBasicManual";
   src: url("../public/fonts/SV\ Basic\ Manual\ Book.ttf") format("truetype");
   font-weight: bold;

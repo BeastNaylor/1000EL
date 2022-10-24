@@ -8,10 +8,16 @@ const TitleBar = () => {
   return (
     <div id="titleBar">
       <Navbar color="light" light>
-        <NavbarBrand>
+        <div>
           <div className="title">SOLO</div>
           <div className="sub">Solo Operator Lift-Off</div>
-        </NavbarBrand>
+          <div className="link">
+            see{" "}
+            <a href="https://alfredvalley.itch.io/thousand-empty-light" target="_blank">
+              Thousand Empty Light Manual of Operation
+            </a>
+          </div>
+        </div>
         <NavbarText>
           <img src={imageUrl} height="40px" />
         </NavbarText>
