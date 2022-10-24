@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Button, Container } from "reactstrap";
+import { Button, Col, Container, Form, FormGroup, Input, Label } from "reactstrap";
 import "./Decode.css";
 
 const Decode = () => {
@@ -24,8 +24,9 @@ const Decode = () => {
   const decode = () => {
     var newState = state.map((element) => {
       var result = "";
-      if (element.input) {
-        var xorResult = element.code ^ parseInt(element.input, 2);
+      const input = element.input.trim();
+      if (input) {
+        var xorResult = element.code ^ parseInt(input, 2);
         if (xorResult > 31 && xorResult < 127) {
           result = String.fromCharCode(xorResult);
         } else {
@@ -47,20 +48,20 @@ const Decode = () => {
         If you have been supplied a personal key, input each byte (8 digit chunk) in the forms provided and press DECODE
         to decipher your message.
       </p>
-      <div id="inputs">
+      <Form id="inputs">
         {state.map((letterInfo) => {
           return (
-            <div key={letterInfo.index} className="decodeRow">
-              <div className="decodeLetter">{letterInfo.letter}</div>
-              <div className="decodeAscii">{letterInfo.code.toString("2").padStart(8, "0")}</div>
-              <div className="decodeInput">
-                <input defaultValue={letterInfo.input} onChange={handleChange} name={letterInfo.index} />
-              </div>
-              <div className="decodeResult">{letterInfo.result}</div>
-            </div>
+            <FormGroup row key={letterInfo.index} className="decodeRow">
+              <Label xs={2}>{letterInfo.letter}</Label>
+              <Label xs={4}>{letterInfo.code.toString("2").padStart(8, "0")}</Label>
+              <Col xs={4}>
+                <Input defaultValue={letterInfo.input} onChange={handleChange} name={letterInfo.index} />
+              </Col>
+              <Label xs={2}>{letterInfo.result}</Label>
+            </FormGroup>
           );
         })}
-      </div>
+      </Form>
       <Button id="decodeButton" type="button" onClick={decode} color="secondary">
         Decode
       </Button>
